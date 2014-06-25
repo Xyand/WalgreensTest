@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB648AD195AE99000C8AB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB648AC195AE99000C8AB97 /* main.m */; };
+		DFB648B0195AE99000C8AB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB648AF195AE99000C8AB97 /* AppDelegate.m */; };
+		DFB648B3195AE99000C8AB97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB648B2195AE99000C8AB97 /* ViewController.m */; };
+		DFB648B6195AE99000C8AB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB648B4195AE99000C8AB97 /* Main.storyboard */; };
+		DFB648B8195AE99000C8AB97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB648B7195AE99000C8AB97 /* Images.xcassets */; };
+		DFB648C4195AE99000C8AB97 /* WalgreensTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB648C3195AE99000C8AB97 /* WalgreensTestTests.m */; };
+		DFB648D3195AEA5F00C8AB97 /* libQuickPrintSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB648D0195AEA5F00C8AB97 /* libQuickPrintSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB648BE195AE99000C8AB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6489F195AE99000C8AB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB648A6195AE99000C8AB97;
+			remoteInfo = WalgreensTest;
+		};
+		DFB648D4195AEB7000C8AB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6489F195AE99000C8AB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB648A6195AE99000C8AB97;
+			remoteInfo = WalgreensTest;
+		};
+		DFB648D6195AED9C00C8AB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6489F195AE99000C8AB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB648A6195AE99000C8AB97;
+			remoteInfo = WalgreensTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB648A7195AE99000C8AB97 /* WalgreensTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalgreensTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB648AB195AE99000C8AB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB648AC195AE99000C8AB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB648AE195AE99000C8AB97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB648AF195AE99000C8AB97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB648B1195AE99000C8AB97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFB648B2195AE99000C8AB97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFB648B5195AE99000C8AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB648B7195AE99000C8AB97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB648BD195AE99000C8AB97 /* WalgreensTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalgreensTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB648C2195AE99000C8AB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB648C3195AE99000C8AB97 /* WalgreensTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalgreensTestTests.m; sourceTree = "<group>"; };
+		DFB648D0195AEA5F00C8AB97 /* libQuickPrintSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQuickPrintSDK.a; path = ../../../../../Downloads/QuickPrints_SDK_iOS_v3.3_20140513/libQuickPrintSDK.a; sourceTree = "<group>"; };
+		DFB648D1195AEA5F00C8AB97 /* WAG_CheckoutContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAG_CheckoutContext.h; path = ../../../../../Downloads/QuickPrints_SDK_iOS_v3.3_20140513/WAG_CheckoutContext.h; sourceTree = "<group>"; };
+		DFB648D2195AEA5F00C8AB97 /* WAG_ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAG_ImageData.h; path = ../../../../../Downloads/QuickPrints_SDK_iOS_v3.3_20140513/WAG_ImageData.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB648A4195AE99000C8AB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB648D3195AEA5F00C8AB97 /* libQuickPrintSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB648BA195AE99000C8AB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB6489E195AE99000C8AB97 = {
+			isa = PBXGroup;
+			children = (
+				DFB648A9195AE99000C8AB97 /* WalgreensTest */,
+				DFB648C0195AE99000C8AB97 /* WalgreensTestTests */,
+				DFB648A8195AE99000C8AB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB648A8195AE99000C8AB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB648A7195AE99000C8AB97 /* WalgreensTest.app */,
+				DFB648BD195AE99000C8AB97 /* WalgreensTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB648A9195AE99000C8AB97 /* WalgreensTest */ = {
+			isa = PBXGroup;
+			children = (
+				DFB648D0195AEA5F00C8AB97 /* libQuickPrintSDK.a */,
+				DFB648D1195AEA5F00C8AB97 /* WAG_CheckoutContext.h */,
+				DFB648D2195AEA5F00C8AB97 /* WAG_ImageData.h */,
+				DFB648AE195AE99000C8AB97 /* AppDelegate.h */,
+				DFB648AF195AE99000C8AB97 /* AppDelegate.m */,
+				DFB648B1195AE99000C8AB97 /* ViewController.h */,
+				DFB648B2195AE99000C8AB97 /* ViewController.m */,
+				DFB648B4195AE99000C8AB97 /* Main.storyboard */,
+				DFB648B7195AE99000C8AB97 /* Images.xcassets */,
+				DFB648AA195AE99000C8AB97 /* Supporting Files */,
+			);
+			path = WalgreensTest;
+			sourceTree = "<group>";
+		};
+		DFB648AA195AE99000C8AB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB648AB195AE99000C8AB97 /* Info.plist */,
+				DFB648AC195AE99000C8AB97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB648C0195AE99000C8AB97 /* WalgreensTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB648C3195AE99000C8AB97 /* WalgreensTestTests.m */,
+				DFB648C1195AE99000C8AB97 /* Supporting Files */,
+			);
+			path = WalgreensTestTests;
+			sourceTree = "<group>";
+		};
+		DFB648C1195AE99000C8AB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB648C2195AE99000C8AB97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB648A6195AE99000C8AB97 /* WalgreensTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB648C7195AE99000C8AB97 /* Build configuration list for PBXNativeTarget "WalgreensTest" */;
+			buildPhases = (
+				DFB648A3195AE99000C8AB97 /* Sources */,
+				DFB648A4195AE99000C8AB97 /* Frameworks */,
+				DFB648A5195AE99000C8AB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalgreensTest;
+			productName = WalgreensTest;
+			productReference = DFB648A7195AE99000C8AB97 /* WalgreensTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB648BC195AE99000C8AB97 /* WalgreensTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB648CA195AE99000C8AB97 /* Build configuration list for PBXNativeTarget "WalgreensTestTests" */;
+			buildPhases = (
+				DFB648B9195AE99000C8AB97 /* Sources */,
+				DFB648BA195AE99000C8AB97 /* Frameworks */,
+				DFB648BB195AE99000C8AB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB648BF195AE99000C8AB97 /* PBXTargetDependency */,
+				DFB648D5195AEB7000C8AB97 /* PBXTargetDependency */,
+				DFB648D7195AED9C00C8AB97 /* PBXTargetDependency */,
+			);
+			name = WalgreensTestTests;
+			productName = WalgreensTestTests;
+			productReference = DFB648BD195AE99000C8AB97 /* WalgreensTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB6489F195AE99000C8AB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Albert Achtenberg";
+				TargetAttributes = {
+					DFB648A6195AE99000C8AB97 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DFB648BC195AE99000C8AB97 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DFB648A6195AE99000C8AB97;
+					};
+				};
+			};
+			buildConfigurationList = DFB648A2195AE99000C8AB97 /* Build configuration list for PBXProject "WalgreensTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB6489E195AE99000C8AB97;
+			productRefGroup = DFB648A8195AE99000C8AB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB648A6195AE99000C8AB97 /* WalgreensTest */,
+				DFB648BC195AE99000C8AB97 /* WalgreensTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB648A5195AE99000C8AB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB648B6195AE99000C8AB97 /* Main.storyboard in Resources */,
+				DFB648B8195AE99000C8AB97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB648BB195AE99000C8AB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB648A3195AE99000C8AB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB648B3195AE99000C8AB97 /* ViewController.m in Sources */,
+				DFB648B0195AE99000C8AB97 /* AppDelegate.m in Sources */,
+				DFB648AD195AE99000C8AB97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB648B9195AE99000C8AB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB648C4195AE99000C8AB97 /* WalgreensTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB648BF195AE99000C8AB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB648A6195AE99000C8AB97 /* WalgreensTest */;
+			targetProxy = DFB648BE195AE99000C8AB97 /* PBXContainerItemProxy */;
+		};
+		DFB648D5195AEB7000C8AB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB648A6195AE99000C8AB97 /* WalgreensTest */;
+			targetProxy = DFB648D4195AEB7000C8AB97 /* PBXContainerItemProxy */;
+		};
+		DFB648D7195AED9C00C8AB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB648A6195AE99000C8AB97 /* WalgreensTest */;
+			targetProxy = DFB648D6195AED9C00C8AB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB648B4195AE99000C8AB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB648B5195AE99000C8AB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB648C5195AE99000C8AB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.1;
+			};
+			name = Debug;
+		};
+		DFB648C6195AE99000C8AB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB648C8195AE99000C8AB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WalgreensTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/albertachtenberg/Downloads/QuickPrints_SDK_iOS_v3.3_20140513,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB648C9195AE99000C8AB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WalgreensTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/albertachtenberg/Downloads/QuickPrints_SDK_iOS_v3.3_20140513,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFB648CB195AE99000C8AB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WalgreensTest.app/WalgreensTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalgreensTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DFB648CC195AE99000C8AB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WalgreensTest.app/WalgreensTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalgreensTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB648A2195AE99000C8AB97 /* Build configuration list for PBXProject "WalgreensTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB648C5195AE99000C8AB97 /* Debug */,
+				DFB648C6195AE99000C8AB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB648C7195AE99000C8AB97 /* Build configuration list for PBXNativeTarget "WalgreensTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB648C8195AE99000C8AB97 /* Debug */,
+				DFB648C9195AE99000C8AB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB648CA195AE99000C8AB97 /* Build configuration list for PBXNativeTarget "WalgreensTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB648CB195AE99000C8AB97 /* Debug */,
+				DFB648CC195AE99000C8AB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB6489F195AE99000C8AB97 /* Project object */;
+}
